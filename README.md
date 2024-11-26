@@ -6,7 +6,7 @@
 docker build -t nextjs-app .
 ```
 
-- Executar o container
+- **Executar o container**
 
 ```bash
 docker run -p 3000:3000 nextjs-app`
