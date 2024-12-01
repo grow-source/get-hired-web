@@ -26,10 +26,10 @@ jobs:
         run: npm install --frozen-lockfile --legacy-peer-deps
 
       - name: Linting
-        run: npm ci:lint
+        run: npm run ci:lint
 
       - name: Typechecking
-        run: npm typecheck
+        run: npm run typecheck
 
       - name: Tests
-        run: npm test:ci
+        run: npm run test:ci
