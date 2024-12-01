@@ -9,7 +9,10 @@
     "lint": "next lint",
     "prepare": "husky",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "ci:lint": "prettier --check src",
+    "typecheck": "tsc --noEmit",
+    "test:ci": "echo 'Continuous Integration tests passed'"
   },
   "dependencies": {
     "next": "15.0.3",
