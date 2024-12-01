@@ -1,3 +1,3 @@
-describe("Header", () => {
-  it("should render the header", () => {});
+describe('Header', () => {
+  it('should render the header', () => {});
 });
