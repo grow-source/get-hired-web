@@ -23,7 +23,7 @@ jobs:
       - run: npm pkg delete scripts.prepare
 
       - name: Install dependencies
-        run: npm install --frozen-lockfile
+        run: npm install --frozen-lockfile --legacy-peer-deps
 
       - name: Linting
         run: npm ci:lint
