@@ -1,4 +1,4 @@
-name: Live 05 CI
+name: Get Hired Web CI
 
 on:
   push:
